@@ -1,0 +1,45 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 4.7rem;
+}.boton-seleccion-5Hg {
+  padding: 2rem;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  display: flex;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: column;
+  border: dashed 0.1rem #9747ff;
+
+  .apagadoenecendido-1BL {
+    flex-shrink: 0;
+    margin-bottom: 2rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    cursor: pointer;
+    object-fit: contain;
+    vertical-align: top;
+  }
+  .apagadovariant2-jNE {
+    width: 0.7rem;
+    height: 0.7rem;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+}

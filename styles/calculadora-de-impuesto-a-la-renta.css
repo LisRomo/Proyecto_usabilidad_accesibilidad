@@ -1,0 +1,869 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 142.8rem;
+}.calculadora-de-impuesto-a-la-renta-6Fg {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .component-2-DbC {
+  width: 144rem;
+  height: 22.3rem;
+  position: relative;
+  background-size: 100% 215.247%;
+  background-position: 0 -0.542rem;
+  background-image: url('../assets/palaciocarondelet-1-bg-QbY.png');
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .component-2-DbC .rectangle-13-m6v {
+  width: 144rem;
+  height: 9.8rem;
+  position: absolute;
+  left: 0;
+  top: 5.6rem;
+  background-color: rgba(0, 0, 0, 0.400000006);
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .component-2-DbC .servicio-de-rentas-internas-tBY {
+  width: 40.4rem;
+  height: 2.9rem;
+  position: absolute;
+  left: 50.9rem;
+  top: 9.1rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ededed;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .component-2-DbC .component-2-DbC-bg {
+  width: 144rem;
+  height: 22.3rem;
+  position: relative;
+  background-image: url('REPLACE_IMAGE:d292b9472a26d33080ae1a0d78f7f3708b119c21');
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .navegacin-calculadora-62i {
+  box-sizing: border-box;
+  padding: 0.5rem 2.8rem 0.4rem 1.5rem;
+  width: 144rem;
+  height: 3.4rem;
+  display: flex;
+  align-items: center;
+  background-color: rgba(217, 217, 217, 0.400000006);
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .navegacin-calculadora-62i .auto-group-h6q4-aia {
+  margin: 0.5rem 0.6rem 0.5rem 0rem;
+  width: 10.3rem;
+  height: calc(100% - 1rem);
+  position: relative;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .navegacin-calculadora-62i .auto-group-h6q4-aia .item--VqY {
+  width: 1.1rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 4rem;
+  top: 0;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .navegacin-calculadora-62i .auto-group-h6q4-aia .portal-QBp {
+  width: 4.2rem;
+  height: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .navegacin-calculadora-62i .auto-group-h6q4-aia .servicios-tsg {
+  width: 5.3rem;
+  height: 1.5rem;
+  cursor: pointer;
+  position: absolute;
+  left: 5rem;
+  top: 0;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .navegacin-calculadora-62i .item--CdU {
+  margin-right: 0.6rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .navegacin-calculadora-62i .calculadora-ley-de-economa-familiar-Kxz {
+  margin-right: 66.1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .navegacin-calculadora-62i .buscador-3tz {
+  box-sizing: border-box;
+  padding: 0.474rem 1.317rem 0rem 1rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #ededed;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .navegacin-calculadora-62i .buscador-3tz .buscar-C1C {
+  margin: 0rem 28.556rem 0.474rem 0rem;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #005ba3;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .navegacin-calculadora-62i .buscador-3tz .search-6MU {
+  width: 2.0266rem;
+  height: 2.0266rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS {
+  box-sizing: border-box;
+  padding-left: 0.3rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .image-2-iNr {
+  margin: 0rem 0rem 3.3rem 6.6rem;
+  width: 47.7rem;
+  height: 6rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz {
+  margin: 0rem 3.5rem 6.2rem 2.6rem;
+  box-sizing: border-box;
+  padding-bottom: 2rem;
+  width: calc(100% - 6.1rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: rgba(217, 217, 217, 0.400000006);
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .calculadora-de-impuesto-a-la-renta-wmQ {
+  margin: 0rem 0rem 3.1rem 2.476rem;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .aqu-podrs-calcular-tu-reduccin-en-el-impuesto-a-la-renta-de-personas-naturales-de-la-nueva-ley-orgnica-para-el-fortalecimiento-de-la-economa-familiar-45L {
+  margin: 0rem 1.68rem 3.195rem 0rem;
+  max-width: 86.3rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-oix8-tKG {
+  margin: 0rem 0.098rem 3.526rem 0rem;
+  width: 136.3024rem;
+  height: 6.0144rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #dedede;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0000a3;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-7fbu-9FC {
+  margin: 0rem 1.074rem 1.559rem 0.488rem;
+  width: calc(100% - 1.5622rem);
+  height: 7.3588rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-7fbu-9FC .boton-seleccion-rvJ {
+  width: 2.1rem;
+  height: 2.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 97.8118rem;
+  top: 0.4645rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-7fbu-9FC .periodicidad-nJA {
+  width: 134.8378rem;
+  height: 7.3588rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-7fbu-9FC .periodicidad-nJA .auto-group-ckcv-XFk {
+  margin: 0rem 0rem 4.594rem 1.074rem;
+  display: flex;
+  align-items: flex-end;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-7fbu-9FC .periodicidad-nJA .auto-group-ckcv-XFk .indique-la-periodicidad-de-ingreso--3zn {
+  margin: 0rem 46.638rem 0.565rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-7fbu-9FC .periodicidad-nJA .auto-group-ckcv-XFk .boton-seleccion-Mka {
+  margin: 0rem 0.3rem 0.1rem 0rem;
+  width: 2.1rem;
+  height: 2.1rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-7fbu-9FC .periodicidad-nJA .auto-group-ckcv-XFk .anual-fFU {
+  margin: 0rem 14.5rem 0.1rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-7fbu-9FC .periodicidad-nJA .auto-group-ckcv-XFk .mensual-Zre {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-7fbu-9FC .periodicidad-nJA .auto-group-du8v-7NN {
+  width: 100%;
+  height: 0.1rem;
+  border-top: solid 0.1rem #70c0ff;
+  box-sizing: border-box;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .empleado-publico-ESz {
+  margin: 0rem 1.074rem 1.974rem 0.488rem;
+  box-sizing: border-box;
+  padding: 0 1.3118rem;
+  width: calc(100% - 1.5622rem);
+  height: 8.8105rem;
+  border-bottom: solid 0.1rem #70c0ff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .empleado-publico-ESz .auto-group-dxtc-YCn {
+  width: 107.2559rem;
+  height: 5.5996rem;
+  display: flex;
+  align-items: center;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .empleado-publico-ESz .auto-group-dxtc-YCn .auto-group-egqn-5Ci {
+  box-sizing: border-box;
+  padding: 1.547rem 17.7rem 0.953rem 0rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .empleado-publico-ESz .auto-group-dxtc-YCn .auto-group-egqn-5Ci .empleado-pblico--D42 {
+  margin: 1rem 17.9rem 0rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .empleado-publico-ESz .auto-group-dxtc-YCn .auto-group-egqn-5Ci .ingresos-aportables-al-iess-como-sueldo-salario-y-horas-extras-XKc {
+  margin-bottom: 0.1rem;
+  max-width: 33.1rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .empleado-publico-ESz .auto-group-dxtc-YCn .rectangle-7-ppW {
+  margin-right: 1.7575rem;
+  width: 16.5984rem;
+  height: 5.5996rem;
+  background-color: #dedede;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .empleado-publico-ESz .auto-group-dxtc-YCn .usd-MpS {
+  margin-top: 0.6482rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt {
+  margin: 0rem 0.462rem 2.93rem 0.488rem;
+  width: calc(100% - 0.9504rem);
+  height: 57.132rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY {
+  box-sizing: border-box;
+  padding-bottom: 0.7763rem;
+  width: 134.8378rem;
+  height: 42.7699rem;
+  position: absolute;
+  left: 0.6118rem;
+  top: 14.3621rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU {
+  box-sizing: border-box;
+  padding: 0rem 0.026rem 2.324rem 0.026rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .ingrese-el-valor-anual-2p6 {
+  margin: 0rem 0rem 4.3rem 108.645rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-alas-wgA {
+  margin: 0rem 0rem 4.7rem 0.674rem;
+  height: 5.5996rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-alas-wgA .auto-group-onn2-UAJ {
+  box-sizing: border-box;
+  padding: 1.8rem 20.1rem 1.7rem 0rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-alas-wgA .auto-group-onn2-UAJ .aportacin-anual-al-iess--oCa {
+  margin-right: 11.8rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-alas-wgA .auto-group-onn2-UAJ .empleado-pblico-1145-empleado-privado-945-7j4 {
+  margin-top: 0.4rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-alas-wgA .auto-group-w2y4-2LE {
+  margin-right: 2.2016rem;
+  width: 16.5984rem;
+  height: 100%;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d9;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-alas-wgA .usd-6az {
+  margin-top: 0.3004rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-thpc-DvW {
+  margin: 0rem 0rem 3.7rem 0.674rem;
+  height: 5.5996rem;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-thpc-DvW .auto-group-ko6e-A54 {
+  box-sizing: border-box;
+  padding-right: 8.4rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-thpc-DvW .auto-group-ko6e-A54 .otros-ingresos-por--6zJ {
+  margin-right: 16.9rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-thpc-DvW .auto-group-ko6e-A54 .actividad-econmica-capital-y-o-trabajo-autnomoingresos-por-arriendos-rendimientos-financieros-libre-ejercicio-profesional-otros-E4v {
+  margin-top: 0.8rem;
+  max-width: 42.4rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-thpc-DvW .rectangle-7-VFk {
+  margin-right: 2.1835rem;
+  width: 16.5984rem;
+  height: 5.5996rem;
+  background-color: #d9d9d9;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-thpc-DvW .usd-DSe {
+  margin-bottom: 0.7342rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-zxhy-L1U {
+  margin: 0rem 0rem 3.171rem 1.374rem;
+  height: 5.5996rem;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-zxhy-L1U .auto-group-xexe-FPL {
+  box-sizing: border-box;
+  padding: 1.2rem 4.1rem 1.4rem 0rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-zxhy-L1U .auto-group-xexe-FPL .otros-ingresos-por--PEe {
+  margin: 0rem 16.2rem 0.7rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-zxhy-L1U .auto-group-xexe-FPL .actividad-econmica-capital-y-o-trabajo-autnomocostos-y-gastos-por-arriendos-rendimientos-financieros-libre-ejercicio-profesional-otros-WKG {
+  max-width: 46.7rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-zxhy-L1U .rectangle-9-yie {
+  margin-right: 2.1835rem;
+  width: 16.5984rem;
+  height: 5.5996rem;
+  background-color: #d9d9d9;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-zxhy-L1U .usd-KXc {
+  margin-bottom: 0.7015rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-5mhg-3yQ {
+  height: 5.5996rem;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-5mhg-3yQ .total-ingresos-netos-anuales-CrJ {
+  margin: 0rem 10.7rem 0.3rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-5mhg-3yQ .auto-group-djxw-7yG {
+  margin-right: 1.7756rem;
+  width: 16.5984rem;
+  height: 100%;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d9;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .auto-group-c27p-ujU .auto-group-5mhg-3yQ .usd-CUv {
+  margin-bottom: 0.6699rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .aportaciones-oRY .line-3-vfp {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #70c0ff;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .empleado-privado-GDt {
+  width: 134.8378rem;
+  height: 16.2767rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-bottom: solid 0.1rem #70c0ff;
+  box-sizing: border-box;
+  border-radius: 1rem;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .empleado-privado-GDt .auto-group-xdok-oUi {
+  box-sizing: border-box;
+  padding: 0rem 1.312rem 2.489rem 1.312rem;
+  width: 100%;
+  height: 16.1767rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .empleado-privado-GDt .auto-group-xdok-oUi .auto-group-eyz6-8mt {
+  margin: 0rem 24.958rem 0.426rem 0rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .empleado-privado-GDt .auto-group-xdok-oUi .auto-group-eyz6-8mt .empleado-privado--UKx {
+  margin: 5.562rem 17.8rem 0rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .empleado-privado-GDt .auto-group-xdok-oUi .auto-group-eyz6-8mt .ingresos-aportables-al-iess-sueldo-salario-horas-extras-bonificaciones-y-comisiones-PC2 {
+  margin: 0rem 8.2rem 1.538rem 0rem;
+  max-width: 42.6rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .empleado-privado-GDt .auto-group-xdok-oUi .auto-group-eyz6-8mt .rectangle-7-s7C {
+  margin: 0rem 1.757rem 2.062rem 0rem;
+  width: 16.5984rem;
+  height: 5.5996rem;
+  background-color: #d9d9d9;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .empleado-privado-GDt .auto-group-xdok-oUi .auto-group-eyz6-8mt .usd-njx {
+  margin-bottom: 1.4142rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .empleado-privado-GDt .auto-group-xdok-oUi .auto-group-qhv6-XxS {
+  margin: 0rem 24.958rem 0rem 34.2rem;
+  width: calc(100% - 59.1583rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .empleado-privado-GDt .auto-group-xdok-oUi .auto-group-qhv6-XxS .ingresos-no-aportables-al-iess-participacin-de-utlidades-sFc {
+  margin: 1.748rem 23.2rem 0rem 0rem;
+  max-width: 27.6rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .empleado-privado-GDt .auto-group-xdok-oUi .auto-group-qhv6-XxS .rectangle-7-NTG {
+  margin-right: 1.7575rem;
+  width: 16.5984rem;
+  height: 5.5996rem;
+  background-color: #d9d9d9;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-tnej-sXt .empleado-privado-GDt .auto-group-xdok-oUi .auto-group-qhv6-XxS .usd-WpN {
+  margin-top: 0.2335rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-r1zq-RAe {
+  margin: 0rem 44rem 0rem 46rem;
+  width: calc(100% - 90rem);
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-r1zq-RAe .boton-eliminar-M4J {
+  margin-right: 14.4rem;
+  width: 16rem;
+  height: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0000a3;
+  border-radius: 2.1rem;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .contenedor-1-Erz .auto-group-r1zq-RAe .boton-siguiente-E86 {
+  width: 16rem;
+  height: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ffffff;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0000a3;
+  border-radius: 2.1rem;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .pie-pagina-4cv {
+  width: 144.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .pie-pagina-4cv .auto-group-1zk6-1o4 {
+  margin-bottom: 1.2rem;
+  width: 100%;
+  height: 6.8rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .pie-pagina-4cv .auto-group-1zk6-1o4 .auto-group-jwyl-wgi {
+  margin: 1.6rem 2.4rem 0rem 0rem;
+  box-sizing: border-box;
+  padding: 1rem 10.5rem 0rem 10.5rem;
+  width: 60.1rem;
+  border-top: solid 0.1rem #3f3f3f;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .pie-pagina-4cv .auto-group-1zk6-1o4 .auto-group-jwyl-wgi .image-1-FhQ {
+  width: 16rem;
+  height: 4.2rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .pie-pagina-4cv .auto-group-1zk6-1o4 .social-icons-P2v {
+  margin-right: 3.9rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .pie-pagina-4cv .auto-group-1zk6-1o4 .social-icons-KSN {
+  margin-right: 4rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .pie-pagina-4cv .auto-group-1zk6-1o4 .social-icons-ejY {
+  margin-right: 2.4rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .pie-pagina-4cv .auto-group-1zk6-1o4 .auto-group-os3c-ben {
+  margin: 1.55rem 0rem 0.6rem 0rem;
+  height: calc(100% - 2.15rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .pie-pagina-4cv .auto-group-1zk6-1o4 .auto-group-os3c-ben .line-6-jFC {
+  margin-bottom: 0.85rem;
+  width: 62.3rem;
+  height: 0;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .pie-pagina-4cv .auto-group-1zk6-1o4 .auto-group-os3c-ben .plataforma-gubernamental-financiera-av-amazonas-entre-unin-nacional-de-periodistas-y-jos-villalengua-quito-ecuador-telfono-02-393-6300-Uia {
+  margin-left: 6.9rem;
+  max-width: 42.4rem;
+  text-align: right;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .pie-pagina-4cv .auto-group-dk6z-vaa {
+  margin: 0rem 0.2rem 0rem 0.5rem;
+  width: calc(100% - 0.7rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .pie-pagina-4cv .auto-group-dk6z-vaa .rectangle-1-4Az {
+  width: 72rem;
+  height: 1rem;
+  background-color: #ffff00;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .pie-pagina-4cv .auto-group-dk6z-vaa .rectangle-2-cCW {
+  width: 43.2rem;
+  height: 1rem;
+  background-color: #0000ff;
+  flex-shrink: 0;
+}
+.calculadora-de-impuesto-a-la-renta-6Fg .auto-group-u3vn-anS .pie-pagina-4cv .auto-group-dk6z-vaa .rectangle-3-MQz {
+  width: 28.8rem;
+  height: 1rem;
+  background-color: #ff0000;
+  flex-shrink: 0;
+}

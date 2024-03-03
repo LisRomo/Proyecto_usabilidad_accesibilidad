@@ -1,0 +1,764 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.landing-page-YD4 {
+  width: 100%;
+  height: 102.4rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.landing-page-YD4 .frame-1-wkz {
+  width: 144rem;
+  height: 25.3rem;
+  position: absolute;
+  left: 0;
+  top: 22.3rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #ededed;
+  box-sizing: border-box;
+  box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+.landing-page-YD4 .frame-1-wkz .men-navegacin-RJn {
+  box-sizing: border-box;
+  padding-right: 1.6rem;
+  width: 100%;
+  height: 6.6rem;
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+  background-color: #ededed;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .men-navegacin-RJn .navbar-item-5u8 {
+  width: 20rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #005ba3;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #ededed;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .men-navegacin-RJn .navbar-item-5Xk {
+  box-sizing: border-box;
+  padding: 1.8rem 4.75rem;
+  width: 20rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border: solid 0.1rem #ededed;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .men-navegacin-RJn .navbar-item-5Xk .informacin-sobre-impuestos-bkz {
+  max-width: 10.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #3f3f3f;
+  font-family: Arimo, 'Source Sans Pro';
+}
+.landing-page-YD4 .frame-1-wkz .men-navegacin-RJn .navbar-item-Upn {
+  width: 20rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #3f3f3f;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #ededed;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .men-navegacin-RJn .navbar-item-n4n {
+  width: 20rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #3f3f3f;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #ededed;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .men-navegacin-RJn .navbar-item-s6E {
+  width: 20rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #3f3f3f;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #ededed;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .men-navegacin-RJn .buscador-x7g {
+  margin: 1.45rem 0;
+  box-sizing: border-box;
+  padding: 0.6rem 1rem;
+  height: calc(100% - 2.9rem);
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #ededed;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .men-navegacin-RJn .buscador-x7g .buscar-GPG {
+  margin-right: 28.8rem;
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #005ba3;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .men-navegacin-RJn .buscador-x7g .search-z4N {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 {
+  box-sizing: border-box;
+  padding: 2.5rem 28rem;
+  width: 100%;
+  height: 18.7rem;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #ededed;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 .tarjeta-contenido-aYN {
+  margin-right: 5rem;
+  box-sizing: border-box;
+  padding: 3.1rem 2.5rem 2.65rem 2.5rem;
+  height: 100%;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 .tarjeta-contenido-aYN .laptop-outline-Hhg {
+  margin: 0rem 0rem 2.55rem 0.088rem;
+  width: 4.6875rem;
+  height: 3.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 .tarjeta-contenido-aYN .sri-en-lnea-bTU {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #0000a3;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 .tarjeta-contenido-5dY {
+  margin-right: 5rem;
+  box-sizing: border-box;
+  padding: 2.7rem 2.85rem 2.113rem 2.85rem;
+  height: 100%;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 .tarjeta-contenido-5dY .icon-list-bbt {
+  margin-bottom: 1.0125rem;
+  width: 5rem;
+  height: 4.375rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 .tarjeta-contenido-5dY .sri-en-lnea-XVY {
+  max-width: 7.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #0000a3;
+  font-family: Arimo, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 .tarjeta-contenido-pzS {
+  margin-right: 3.5rem;
+  box-sizing: border-box;
+  padding: 3.169rem 2.85rem 2.65rem 2.85rem;
+  height: 100%;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 .tarjeta-contenido-pzS .print-kNJ {
+  margin-bottom: 2.0188rem;
+  width: 4.0625rem;
+  height: 4.0625rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 .tarjeta-contenido-pzS .sri-en-lnea-g14 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #0000a3;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 .tarjeta-contenido-BiW {
+  margin-right: 3.5rem;
+  box-sizing: border-box;
+  padding: 2.7rem 0rem 2.65rem 0rem;
+  height: 100%;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 .tarjeta-contenido-BiW .icon-calculator-7MG {
+  margin: 0rem 0rem 1.55rem 0rem;
+  width: 4.3742rem;
+  height: 5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 .tarjeta-contenido-BiW .sri-en-lnea-Rsk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 .tarjeta-contenido-YxN {
+  box-sizing: border-box;
+  padding: 2.7rem 4.05rem 1.8rem 4.05rem;
+  height: 100%;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 .tarjeta-contenido-YxN .icon-person-rTG {
+  margin-bottom: 0.7rem;
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .frame-1-wkz .contenido-4K8 .tarjeta-contenido-YxN .sri-en-lnea-nbp {
+  max-width: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #0000a3;
+  font-family: Arimo, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg {
+  width: 119rem;
+  height: 39.6rem;
+  position: absolute;
+  left: 2rem;
+  top: 56rem;
+  display: flex;
+  align-items: flex-start;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .bubble-83Q {
+  margin: 15.5rem 13.3rem 0rem 0rem;
+  width: 5.7rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .bubble-83Q .auto-group-qkpa-enS {
+  box-sizing: border-box;
+  padding-bottom: 1.0454rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .bubble-83Q .auto-group-qkpa-enS .ellipse-7-Pk2 {
+  margin-bottom: 1.8rem;
+  width: 3.8rem;
+  height: 3.8rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-7-bg.png');
+  border-radius: 1.9rem;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .bubble-83Q .auto-group-qkpa-enS .ellipse-6-68e {
+  margin-bottom: 1.8rem;
+  width: 3.8rem;
+  height: 3.8rem;
+  background-color: rgba(169, 163, 163, 0.200000003);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-6-bg.png');
+  border-radius: 1.9rem;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .bubble-83Q .auto-group-qkpa-enS .ellipse-4-zzi {
+  margin-bottom: 1.6852rem;
+  width: 3.8rem;
+  height: 3.8rem;
+  background-color: rgba(169, 163, 163, 0.200000003);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-4-bg.png');
+  border-radius: 1.9rem;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .bubble-83Q .auto-group-qkpa-enS .essential-icons-chevron-right-Wy4 {
+  margin-left: 1.4275rem;
+  width: 0.8937rem;
+  height: 0.6694rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .bubble-83Q .auto-group-rcfg-2wQ {
+  width: 100%;
+  height: 5.7rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .bubble-83Q .auto-group-rcfg-2wQ .ellipse-3-nQn {
+  width: 3.8rem;
+  height: 3.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(169, 163, 163, 0.200000003);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-3-bg.png');
+  border-radius: 1.9rem;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .bubble-83Q .auto-group-rcfg-2wQ .ellipse-5-Vpz {
+  width: 5.7rem;
+  height: 5.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .slide-1-dRQ {
+  width: 100rem;
+  height: 21.6rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #ededed;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .slide-1-dRQ .image-4-yEN {
+  opacity: 0.6;
+  width: 43rem;
+  height: 33.9rem;
+  position: absolute;
+  left: 92.8rem;
+  top: -6.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .slide-1-dRQ .image-5-646 {
+  opacity: 0.6;
+  width: 41.2rem;
+  height: 33.9rem;
+  position: absolute;
+  left: -21rem;
+  top: -6.9rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .slide-1-dRQ .auto-group-ya4w-R6N {
+  width: 80.9rem;
+  height: 47.3rem;
+  position: absolute;
+  left: 10.4rem;
+  top: -8.3rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .slide-1-dRQ .auto-group-ya4w-R6N .image-3-waW {
+  margin-bottom: 13.3rem;
+  width: 80.9rem;
+  height: 29.9rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .slide-1-dRQ .auto-group-ya4w-R6N .colonia-del-sacramento-5gi {
+  margin: 0rem 24.8rem 0rem 33rem;
+  width: calc(100% - 57.8rem);
+  height: 4.1rem;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.6999999881);
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .slide-1-dRQ .auto-group-ya4w-R6N .colonia-del-sacramento-5gi .colonia-del-sacramento-Qiz {
+  width: 19.1rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 2rem;
+  top: 1rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .slide-1-dRQ .auto-group-ya4w-R6N .colonia-del-sacramento-5gi .colonia-del-sacramento-eFx {
+  width: 12.6rem;
+  height: 4.1rem;
+  position: absolute;
+  left: 5.3rem;
+  top: 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 0.4rem;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .slide-1-dRQ .auto-group-ya4w-R6N .colonia-del-sacramento-5gi .colonia-del-sacramento-X4r {
+  width: 15.5rem;
+  height: 4.1rem;
+  position: absolute;
+  left: 3.8rem;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 0.4rem;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .slide-1-dRQ .auto-group-ya4w-R6N .colonia-del-sacramento-5gi .colonia-del-sacramento-X4r .colonia-del-sacramento-4aa {
+  width: 11.5rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 2rem;
+  top: 1rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .slide-1-dRQ .auto-group-ya4w-R6N .colonia-del-sacramento-5gi .colonia-del-sacramento-X4r .colonia-del-sacramento-mzn {
+  width: 14.1rem;
+  height: 4.1rem;
+  position: absolute;
+  left: 0.7rem;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 0.4rem;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .slide-1-dRQ .auto-group-ya4w-R6N .colonia-del-sacramento-5gi .colonia-del-sacramento-X4r .colonia-del-sacramento-mzn .colonia-del-sacramento-hdY {
+  width: 10.1rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 2rem;
+  top: 1rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .slide-1-dRQ .auto-group-ya4w-R6N .colonia-del-sacramento-5gi .colonia-del-sacramento-X4r .colonia-del-sacramento-mzn .colonia-del-sacramento-CqC {
+  width: 11.8rem;
+  height: 4.1rem;
+  position: absolute;
+  left: 1.2rem;
+  top: 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 0.4rem;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .slide-1-dRQ .essential-icons-chevron-right-DEW {
+  width: 4rem;
+  height: 4.6364rem;
+  position: absolute;
+  left: 92.7rem;
+  top: 7.5rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.landing-page-YD4 .auto-group-5nas-1Dg .slide-1-dRQ .essential-icons-chevron-left-ut2 {
+  width: 4rem;
+  height: 4.6087rem;
+  position: absolute;
+  left: 5rem;
+  top: 7.5rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.landing-page-YD4 .videos-institucionales-pEJ {
+  width: 19rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 6.8rem;
+  top: 49.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #3f3f3f;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing-page-YD4 .pie-pagina-7UJ {
+  width: 144.7rem;
+  height: 9rem;
+  position: absolute;
+  left: 0;
+  top: 93.4rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.landing-page-YD4 .pie-pagina-7UJ .auto-group-hxt2-F4i {
+  margin-bottom: 1.2rem;
+  width: 100%;
+  height: 6.8rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .pie-pagina-7UJ .auto-group-hxt2-F4i .auto-group-ur9c-aMt {
+  margin: 1.6rem 2.4rem 0rem 0rem;
+  box-sizing: border-box;
+  padding: 1rem 10.5rem 0rem 10.5rem;
+  width: 60.1rem;
+  border-top: solid 0.1rem #3f3f3f;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .pie-pagina-7UJ .auto-group-hxt2-F4i .auto-group-ur9c-aMt .image-1-HXC {
+  width: 16rem;
+  height: 4.2rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.landing-page-YD4 .pie-pagina-7UJ .auto-group-hxt2-F4i .social-icons-okS {
+  margin-right: 3.9rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .pie-pagina-7UJ .auto-group-hxt2-F4i .social-icons-Yxv {
+  margin-right: 4rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .pie-pagina-7UJ .auto-group-hxt2-F4i .social-icons-VdG {
+  margin-right: 2.4rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .pie-pagina-7UJ .auto-group-hxt2-F4i .auto-group-ro4r-S2i {
+  margin: 1.55rem 0rem 0.6rem 0rem;
+  height: calc(100% - 2.15rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .pie-pagina-7UJ .auto-group-hxt2-F4i .auto-group-ro4r-S2i .line-6-xFx {
+  margin-bottom: 0.85rem;
+  width: 62.3rem;
+  height: 0;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .pie-pagina-7UJ .auto-group-hxt2-F4i .auto-group-ro4r-S2i .plataforma-gubernamental-financiera-av-amazonas-entre-unin-nacional-de-periodistas-y-jos-villalengua-quito-ecuador-telfono-02-393-6300-W2a {
+  margin-left: 6.9rem;
+  max-width: 42.4rem;
+  text-align: right;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #000000;
+  font-family: Arimo, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.landing-page-YD4 .pie-pagina-7UJ .auto-group-kuaz-XTU {
+  margin: 0rem 0.2rem 0rem 0.5rem;
+  width: calc(100% - 0.7rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .pie-pagina-7UJ .auto-group-kuaz-XTU .rectangle-1-T6E {
+  width: 72rem;
+  height: 1rem;
+  background-color: #ffff00;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .pie-pagina-7UJ .auto-group-kuaz-XTU .rectangle-2-Q1U {
+  width: 43.2rem;
+  height: 1rem;
+  background-color: #0000ff;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .pie-pagina-7UJ .auto-group-kuaz-XTU .rectangle-3-x2z {
+  width: 28.8rem;
+  height: 1rem;
+  background-color: #ff0000;
+  flex-shrink: 0;
+}
+.landing-page-YD4 .component-1-thL {
+  width: 144rem;
+  height: 22.3rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: 100% 215.247%;
+  background-position: 0 -0.542rem;
+  background-image: url('../assets/palaciocarondelet-1-bg-ebY.png');
+}
+.landing-page-YD4 .component-1-thL .rectangle-13-EWJ {
+  width: 144rem;
+  height: 9.8rem;
+  position: absolute;
+  left: 0;
+  top: 5.6rem;
+  background-color: rgba(0, 0, 0, 0.400000006);
+}
+.landing-page-YD4 .component-1-thL .servicio-de-rentas-internas-yTt {
+  width: 40.4rem;
+  height: 2.9rem;
+  position: absolute;
+  left: 50.9rem;
+  top: 9.1rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #ededed;
+  font-family: Arimo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.landing-page-YD4 .component-1-thL .component-1-thL-bg {
+  width: 144rem;
+  height: 22.3rem;
+  position: relative;
+  background-image: url('REPLACE_IMAGE:d292b9472a26d33080ae1a0d78f7f3708b119c21');
+}

@@ -1,0 +1,790 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.landing-page-YD4 {
+  overflow: hidden;
+  background-color: #ffffff;
+  width: 100%;
+  height: 102.4rem;
+  position: relative;
+
+  .frame-1-wkz {
+    box-shadow: inset 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25));
+    flex-direction: column;
+    height: 25.3rem;
+    position: absolute;
+    left: 0;
+    top: 22.3rem;
+    align-items: center;
+    display: flex;
+    border: solid 0.1rem #ededed;
+    width: 144rem;
+    box-sizing: border-box;
+
+    .men-navegacin-RJn {
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+      padding-right: 1.6rem;
+      width: 100%;
+      height: 6.6rem;
+      column-gap: 1rem;
+      background-color: #ededed;
+
+      .navbar-item-5u8 {
+        display: flex;
+        align-items: center;
+        font-size: 1.3rem;
+        font-weight: 700;
+        white-space: nowrap;
+        border: solid 0.1rem #ededed;
+        width: 20rem;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        background-color: #ffffff;
+        flex-shrink: 0;
+        box-sizing: border-box;
+        justify-content: center;
+        line-height: 1.15;
+        color: #005ba3;
+        font-family: Arimo, 'Source Sans Pro';
+      }
+      .navbar-item-5Xk {
+        overflow: hidden;
+        position: relative;
+        border: solid 0.1rem #ededed;
+        flex-shrink: 0;
+        box-sizing: border-box;
+        padding: 1.8rem 4.75rem;
+        width: 20rem;
+        height: 100%;
+
+        .informacin-sobre-impuestos-bkz {
+          font-weight: 400;
+          color: #3f3f3f;
+          font-family: Arimo, 'Source Sans Pro';
+          max-width: 10.5rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1.3rem;
+          line-height: 1.15;
+        }
+      }
+      .navbar-item-Upn {
+        font-size: 1.3rem;
+        font-family: Arimo, 'Source Sans Pro';
+        border: solid 0.1rem #ededed;
+        width: 20rem;
+        position: relative;
+        justify-content: center;
+        font-weight: 400;
+        line-height: 1.15;
+        flex-shrink: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: #3f3f3f;
+        white-space: nowrap;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+      .navbar-item-n4n {
+        width: 20rem;
+        height: 100%;
+        position: relative;
+        border: solid 0.1rem #ededed;
+        display: flex;
+        font-weight: 400;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+        color: #3f3f3f;
+        white-space: nowrap;
+        line-height: 1.15;
+        font-family: Arimo, 'Source Sans Pro';
+        box-sizing: border-box;
+        flex-shrink: 0;
+      }
+      .navbar-item-s6E {
+        line-height: 1.15;
+        overflow: hidden;
+        font-size: 1.3rem;
+        box-sizing: border-box;
+        font-family: Arimo, 'Source Sans Pro';
+        position: relative;
+        justify-content: center;
+        color: #3f3f3f;
+        align-items: center;
+        font-weight: 400;
+        white-space: nowrap;
+        border: solid 0.1rem #ededed;
+        flex-shrink: 0;
+        width: 20rem;
+        height: 100%;
+        display: flex;
+      }
+      .buscador-x7g {
+        background-color: #ffffff;
+        border-radius: 1rem;
+        flex-shrink: 0;
+        margin: 1.45rem 0;
+        box-sizing: border-box;
+        padding: 0.6rem 1rem;
+        height: calc(100% - 2.9rem);
+        display: flex;
+        align-items: center;
+        border: solid 0.1rem #ededed;
+
+        .buscar-GPG {
+          margin-right: 28.8rem;
+          font-size: 1.3rem;
+          font-weight: 400;
+          line-height: 1.15;
+          font-family: Arimo, 'Source Sans Pro';
+          display: flex;
+          color: #005ba3;
+          white-space: nowrap;
+          flex-shrink: 0;
+        }
+        .search-z4N {
+          width: 2.5rem;
+          height: 2.5rem;
+          object-fit: contain;
+          vertical-align: top;
+          flex-shrink: 0;
+        }
+      }
+    }
+    .contenido-4K8 {
+      display: flex;
+      align-items: center;
+      border: solid 0.1rem #ededed;
+      flex-shrink: 0;
+      box-sizing: border-box;
+      padding: 2.5rem 28rem;
+      width: 100%;
+      height: 18.7rem;
+
+      .tarjeta-contenido-aYN {
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+        flex-shrink: 0;
+        margin-right: 5rem;
+        padding: 3.1rem 2.5rem 2.65rem 2.5rem;
+        display: flex;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        cursor: pointer;
+
+        .laptop-outline-Hhg {
+          width: 4.6875rem;
+          height: 3.6rem;
+          object-fit: contain;
+          vertical-align: top;
+          flex-shrink: 0;
+          margin: 0rem 0rem 2.55rem 0.088rem;
+        }
+        .sri-en-lnea-bTU {
+          flex-shrink: 0;
+          display: flex;
+          align-items: center;
+          font-family: Arimo, 'Source Sans Pro';
+          line-height: 1.15;
+          color: #0000a3;
+          white-space: nowrap;
+          justify-content: center;
+          font-size: 1.5rem;
+          font-weight: 700;
+        }
+      }
+      .tarjeta-contenido-5dY {
+        flex-shrink: 0;
+        margin-right: 5rem;
+        height: 100%;
+        cursor: pointer;
+        display: flex;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        padding: 2.7rem 2.85rem 2.113rem 2.85rem;
+        align-items: center;
+        flex-direction: column;
+
+        .icon-list-bbt {
+          margin-bottom: 1.0125rem;
+          width: 5rem;
+          height: 4.375rem;
+          object-fit: contain;
+          vertical-align: top;
+          flex-shrink: 0;
+        }
+        .sri-en-lnea-XVY {
+          font-weight: 700;
+          line-height: 1.15;
+          color: #0000a3;
+          font-family: Arimo, 'Source Sans Pro';
+          flex-shrink: 0;
+          max-width: 7.9rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1.5rem;
+        }
+      }
+      .tarjeta-contenido-pzS {
+        display: flex;
+        flex-direction: column;
+        border-radius: 1rem;
+        flex-shrink: 0;
+        padding: 3.169rem 2.85rem 2.65rem 2.85rem;
+        box-sizing: border-box;
+        height: 100%;
+        cursor: pointer;
+        align-items: center;
+        margin-right: 3.5rem;
+
+        .print-kNJ {
+          margin-bottom: 2.0188rem;
+          width: 4.0625rem;
+          height: 4.0625rem;
+          object-fit: contain;
+          vertical-align: top;
+          flex-shrink: 0;
+        }
+        .sri-en-lnea-g14 {
+          font-family: Arimo, 'Source Sans Pro';
+          white-space: nowrap;
+          display: flex;
+          justify-content: center;
+          font-size: 1.5rem;
+          line-height: 1.15;
+          color: #0000a3;
+          align-items: center;
+          font-weight: 700;
+          flex-shrink: 0;
+        }
+      }
+      .tarjeta-contenido-BiW {
+        box-sizing: border-box;
+        align-items: center;
+        border-radius: 1rem;
+        flex-shrink: 0;
+        margin-right: 3.5rem;
+        padding: 2.7rem 0rem 2.65rem 0rem;
+        height: 100%;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+
+        .icon-calculator-7MG {
+          margin: 0rem 0rem 1.55rem 0rem;
+          width: 4.3742rem;
+          height: 5rem;
+          object-fit: contain;
+          vertical-align: top;
+          flex-shrink: 0;
+        }
+        .sri-en-lnea-Rsk {
+          font-weight: 700;
+          line-height: 1.15;
+          font-family: Arimo, 'Source Sans Pro';
+          flex-shrink: 0;
+          display: flex;
+          align-items: center;
+          white-space: nowrap;
+          justify-content: center;
+          font-size: 1.5rem;
+        }
+      }
+      .tarjeta-contenido-YxN {
+        box-sizing: border-box;
+        height: 100%;
+        cursor: pointer;
+        flex-direction: column;
+        border-radius: 1rem;
+        padding: 2.7rem 4.05rem 1.8rem 4.05rem;
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+
+        .icon-person-rTG {
+          margin-bottom: 0.7rem;
+          width: 5rem;
+          height: 5rem;
+          object-fit: contain;
+          vertical-align: top;
+          flex-shrink: 0;
+        }
+        .sri-en-lnea-nbp {
+          max-width: 5.5rem;
+          display: flex;
+          justify-content: center;
+          font-size: 1.5rem;
+          font-weight: 700;
+          font-family: Arimo, 'Source Sans Pro';
+          align-items: center;
+          line-height: 1.15;
+          color: #0000a3;
+          flex-shrink: 0;
+        }
+      }
+    }
+  }
+  .auto-group-5nas-1Dg {
+    left: 2rem;
+    top: 56rem;
+    display: flex;
+    align-items: flex-start;
+    width: 119rem;
+    height: 39.6rem;
+    position: absolute;
+
+    .bubble-83Q {
+      margin: 15.5rem 13.3rem 0rem 0rem;
+      width: 5.7rem;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+
+      .auto-group-qkpa-enS {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        box-sizing: border-box;
+        padding-bottom: 1.0454rem;
+        width: 100%;
+
+        .ellipse-7-Pk2 {
+          margin-bottom: 1.8rem;
+          width: 3.8rem;
+          height: 3.8rem;
+          border-radius: 1.9rem;
+          flex-shrink: 0;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-image: url('REPLACE_IMAGE:73a1cf4271838bf15667067b58049c3307964705');
+        }
+        .ellipse-6-68e {
+          margin-bottom: 1.8rem;
+          width: 3.8rem;
+          flex-shrink: 0;
+          height: 3.8rem;
+          background-color: rgba(169, 163, 163, 0.200000003);
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-image: url('REPLACE_IMAGE:ca0f93e8eaf1b48cf28c33c1253692c39a1c3991');
+          border-radius: 1.9rem;
+        }
+        .ellipse-4-zzi {
+          margin-bottom: 1.6852rem;
+          width: 3.8rem;
+          height: 3.8rem;
+          border-radius: 1.9rem;
+          flex-shrink: 0;
+          background-color: rgba(169, 163, 163, 0.200000003);
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-image: url('REPLACE_IMAGE:263d8dcea041e80a05c917b13dd11c9586666f4e');
+        }
+        .essential-icons-chevron-right-Wy4 {
+          object-fit: contain;
+          vertical-align: top;
+          flex-shrink: 0;
+          margin-left: 1.4275rem;
+          width: 0.8937rem;
+          height: 0.6694rem;
+        }
+      }
+      .auto-group-rcfg-2wQ {
+        width: 100%;
+        height: 5.7rem;
+        position: relative;
+        flex-shrink: 0;
+
+        .ellipse-3-nQn {
+          background-repeat: no-repeat;
+          border-radius: 1.9rem;
+          height: 3.8rem;
+          background-color: rgba(169, 163, 163, 0.200000003);
+          left: 0;
+          top: 0;
+          background-size: 100% 100%;
+          background-position: center;
+          background-image: url('REPLACE_IMAGE:32fc9cd97fad3435aa5665f1dd30ffc14ed08578');
+          width: 3.8rem;
+          position: absolute;
+        }
+        .ellipse-5-Vpz {
+          width: 5.7rem;
+          height: 5.7rem;
+          position: absolute;
+          left: 0;
+          top: 0;
+          object-fit: contain;
+          vertical-align: top;
+        }
+      }
+    }
+    .slide-1-dRQ {
+      width: 100rem;
+      height: 21.6rem;
+      position: relative;
+      overflow: hidden;
+      background-color: #ededed;
+      flex-shrink: 0;
+
+      .image-4-yEN {
+        left: 92.8rem;
+        top: -6.9rem;
+        object-fit: cover;
+        vertical-align: top;
+        opacity: 0.6;
+        width: 43rem;
+        height: 33.9rem;
+        position: absolute;
+      }
+      .image-5-646 {
+        top: -6.9rem;
+        object-fit: cover;
+        vertical-align: top;
+        opacity: 0.6;
+        width: 41.2rem;
+        height: 33.9rem;
+        position: absolute;
+        left: -21rem;
+      }
+      .auto-group-ya4w-R6N {
+        left: 10.4rem;
+        top: -8.3rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 80.9rem;
+        height: 47.3rem;
+        position: absolute;
+
+        .image-3-waW {
+          height: 29.9rem;
+          object-fit: cover;
+          vertical-align: top;
+          flex-shrink: 0;
+          margin-bottom: 13.3rem;
+          width: 80.9rem;
+        }
+        .colonia-del-sacramento-5gi {
+          flex-shrink: 0;
+          margin: 0rem 24.8rem 0rem 33rem;
+          width: calc(100% - 57.8rem);
+          height: 4.1rem;
+          position: relative;
+          background-color: rgba(255, 255, 255, 0.6999999881);
+          border-radius: 0.4rem;
+
+          .colonia-del-sacramento-Qiz {
+            color: #000000;
+            top: 1rem;
+            font-weight: 400;
+            line-height: 1.1725;
+            left: 2rem;
+            text-align: center;
+            font-size: 1.8rem;
+            font-family: Roboto, 'Source Sans Pro';
+            white-space: nowrap;
+            width: 19.1rem;
+            height: 2.2rem;
+            position: absolute;
+          }
+          .colonia-del-sacramento-eFx {
+            left: 5.3rem;
+            top: 0;
+            width: 12.6rem;
+            font-size: 1.8rem;
+            color: #000000;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            border-radius: 0.4rem;
+            text-align: center;
+            line-height: 1.1725;
+            background-color: rgba(255, 255, 255, 0);
+            height: 4.1rem;
+            font-weight: 400;
+            font-family: Roboto, 'Source Sans Pro';
+            justify-content: center;
+            position: absolute;
+          }
+          .colonia-del-sacramento-X4r {
+            width: 15.5rem;
+            height: 4.1rem;
+            position: absolute;
+            left: 3.8rem;
+            top: 0;
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 0.4rem;
+
+            .colonia-del-sacramento-4aa {
+              white-space: nowrap;
+              width: 11.5rem;
+              position: absolute;
+              left: 2rem;
+              text-align: center;
+              font-weight: 400;
+              line-height: 1.1725;
+              height: 2.2rem;
+              top: 1rem;
+              font-size: 1.8rem;
+              color: #000000;
+              font-family: Roboto, 'Source Sans Pro';
+            }
+            .colonia-del-sacramento-mzn {
+              left: 0.7rem;
+              top: 0;
+              background-color: rgba(255, 255, 255, 0);
+              border-radius: 0.4rem;
+              width: 14.1rem;
+              height: 4.1rem;
+              position: absolute;
+
+              .colonia-del-sacramento-hdY {
+                top: 1rem;
+                text-align: center;
+                font-weight: 400;
+                color: #000000;
+                font-family: Roboto, 'Source Sans Pro';
+                white-space: nowrap;
+                width: 10.1rem;
+                height: 2.2rem;
+                position: absolute;
+                left: 2rem;
+                font-size: 1.8rem;
+                line-height: 1.1725;
+              }
+              .colonia-del-sacramento-CqC {
+                justify-content: center;
+                background-color: rgba(255, 255, 255, 0);
+                font-size: 1.8rem;
+                line-height: 1.1725;
+                width: 11.8rem;
+                left: 1.2rem;
+                top: 0;
+                text-align: center;
+                font-family: Roboto, 'Source Sans Pro';
+                white-space: nowrap;
+                border-radius: 0.4rem;
+                display: flex;
+                align-items: center;
+                height: 4.1rem;
+                position: absolute;
+                font-weight: 400;
+                color: #000000;
+              }
+            }
+          }
+        }
+      }
+      .essential-icons-chevron-right-DEW {
+        top: 7.5rem;
+        object-fit: contain;
+        vertical-align: top;
+        width: 4rem;
+        height: 4.6364rem;
+        position: absolute;
+        left: 92.7rem;
+      }
+      .essential-icons-chevron-left-ut2 {
+        width: 4rem;
+        height: 4.6087rem;
+        position: absolute;
+        left: 5rem;
+        top: 7.5rem;
+        object-fit: contain;
+        vertical-align: top;
+      }
+    }
+  }
+  .videos-institucionales-pEJ {
+    line-height: 1.15;
+    white-space: nowrap;
+    width: 19rem;
+    height: 2.1rem;
+    top: 49.5rem;
+    font-weight: 700;
+    color: #3f3f3f;
+    font-family: Arimo, 'Source Sans Pro';
+    position: absolute;
+    left: 6.8rem;
+    font-size: 1.8rem;
+  }
+  .pie-pagina-7UJ {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 144.7rem;
+    height: 9rem;
+    position: absolute;
+    left: 0;
+    top: 93.4rem;
+
+    .auto-group-hxt2-F4i {
+      margin-bottom: 1.2rem;
+      width: 100%;
+      height: 6.8rem;
+      display: flex;
+      align-items: flex-start;
+      flex-shrink: 0;
+
+      .auto-group-ur9c-aMt {
+        margin: 1.6rem 2.4rem 0rem 0rem;
+        box-sizing: border-box;
+        padding: 1rem 10.5rem 0rem 10.5rem;
+        width: 60.1rem;
+        border-top: solid 0.1rem #3f3f3f;
+        flex-shrink: 0;
+
+        .image-1-HXC {
+          vertical-align: top;
+          width: 16rem;
+          height: 4.2rem;
+          object-fit: cover;
+        }
+      }
+      .social-icons-okS {
+        flex-shrink: 0;
+        margin-right: 3.9rem;
+        width: 3.2rem;
+        height: 3.2rem;
+        object-fit: contain;
+        vertical-align: top;
+      }
+      .social-icons-Yxv {
+        margin-right: 4rem;
+        width: 3.2rem;
+        height: 3.2rem;
+        object-fit: contain;
+        vertical-align: top;
+        flex-shrink: 0;
+      }
+      .social-icons-VdG {
+        object-fit: contain;
+        vertical-align: top;
+        flex-shrink: 0;
+        margin-right: 2.4rem;
+        width: 3.2rem;
+        height: 3.2rem;
+      }
+      .auto-group-ro4r-S2i {
+        flex-shrink: 0;
+        margin: 1.55rem 0rem 0.6rem 0rem;
+        height: calc(100% - 2.15rem);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        .line-6-xFx {
+          margin-bottom: 0.85rem;
+          width: 62.3rem;
+          height: 0;
+          object-fit: contain;
+          vertical-align: top;
+          flex-shrink: 0;
+        }
+        .plataforma-gubernamental-financiera-av-amazonas-entre-unin-nacional-de-periodistas-y-jos-villalengua-quito-ecuador-telfono-02-393-6300-W2a {
+          margin-left: 6.9rem;
+          font-weight: 400;
+          color: #000000;
+          font-family: Arimo, 'Source Sans Pro';
+          flex-shrink: 0;
+          max-width: 42.4rem;
+          text-align: right;
+          font-size: 1.1rem;
+          line-height: 1.15;
+        }
+      }
+    }
+    .auto-group-kuaz-XTU {
+      flex-shrink: 0;
+      margin: 0rem 0.2rem 0rem 0.5rem;
+      width: calc(100% - 0.7rem);
+      display: flex;
+      align-items: center;
+
+      .rectangle-1-T6E {
+        height: 1rem;
+        background-color: #ffff00;
+        flex-shrink: 0;
+        width: 72rem;
+      }
+      .rectangle-2-Q1U {
+        width: 43.2rem;
+        height: 1rem;
+        background-color: #0000ff;
+        flex-shrink: 0;
+      }
+      .rectangle-3-x2z {
+        height: 1rem;
+        background-color: #ff0000;
+        flex-shrink: 0;
+        width: 28.8rem;
+      }
+    }
+  }
+  .component-1-thL {
+    background-image: url('REPLACE_IMAGE:d292b9472a26d33080ae1a0d78f7f3708b119c21');
+    width: 144rem;
+    height: 22.3rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: 100% 215.247%;
+    background-position: 0 -0.542rem;
+
+    .rectangle-13-EWJ {
+      left: 0;
+      top: 5.6rem;
+      background-color: rgba(0, 0, 0, 0.400000006);
+      width: 144rem;
+      height: 9.8rem;
+      position: absolute;
+    }
+    .servicio-de-rentas-internas-yTt {
+      white-space: nowrap;
+      width: 40.4rem;
+      left: 50.9rem;
+      top: 9.1rem;
+      color: #ededed;
+      line-height: 1.15;
+      font-family: Arimo, 'Source Sans Pro';
+      height: 2.9rem;
+      position: absolute;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    .component-1-thL-bg {
+      width: 144rem;
+      height: 22.3rem;
+      position: relative;
+      background-image: url('REPLACE_IMAGE:d292b9472a26d33080ae1a0d78f7f3708b119c21');
+    }
+  }
+}
