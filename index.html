@@ -1,143 +1,171 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
   <meta charset="utf-8" />
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <title>Landing page</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo%3A400%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo%3A400%2C700"/>
   <link rel="stylesheet" href="./styles/landing-page.css"/>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var images = document.querySelectorAll('img');
+      images.forEach(function(image) {
+        if (!image.alt) {
+          image.alt = 'Descripción de la imagen';
+        }
+      });
+
+      var elementsWithText = document.querySelectorAll('div, p');
+      elementsWithText.forEach(function(element) {
+        if (!element.getAttribute('aria-label') && element.textContent.trim() !== '') {
+          element.setAttribute('aria-label', element.textContent.trim());
+        }
+      });
+
+      var elements = document.querySelectorAll('*');
+      elements.forEach(function(element) {
+        if (!element.matches('.servicio-de-rentas-internas-uWW, .navbar-item-Akn, .informacin-sobre-impuestos-DsU, .navbar-item-hne, .navbar-item-2iS, .navbar-item-j74, .buscador-S1U, .tarjeta-contenido-oPk, .tarjeta-contenido-KmQ, .tarjeta-contenido-sAe, .tarjeta-contenido-Dti, .tarjeta-contenido-AhU, .videos-institucionales-UaJ, .auto-group-xnxy-Ear, .social-icons-bgr, .social-icons-8wg, .social-icons-seN, .pie-pagina-NQn')) {
+          element.setAttribute('tabindex', '0');
+        }
+      });
+
+      var tabindex = 1;
+      var navigableElements = document.querySelectorAll('.servicio-de-rentas-internas-uWW, .navbar-item-Akn, .informacin-sobre-impuestos-DsU, .navbar-item-hne, .navbar-item-2iS, .navbar-item-j74, .buscador-S1U, .tarjeta-contenido-oPk, .tarjeta-contenido-KmQ, .tarjeta-contenido-sAe, .tarjeta-contenido-Dti, .tarjeta-contenido-AhU, .videos-institucionales-UaJ, .auto-group-xnxy-Ear, .social-icons-bgr, .social-icons-8wg, .social-icons-seN, .pie-pagina-NQn');
+      navigableElements.forEach(function(element) {
+        element.setAttribute('tabindex', tabindex);
+        tabindex++;
+      });
+    });
+  </script>
 </head>
 <body>
-<div class="landing-page-YD4">
-  <div class="frame-1-wkz">
-    <div class="men-navegacin-RJn">
-      <div class="navbar-item-5u8" tabindex="2">Servicios</div>
-      <div class="navbar-item-5Xk">
-        <div class="informacin-sobre-impuestos-bkz" tabindex="3">Información sobre impuestos</div>
+  <div class="landing-page-FiN">
+    <div class="component-1-FRx">
+      <div class="rectangle-13-BqQ">
       </div>
-      <div class="navbar-item-Upn" tabindex="4">Requisitos para trámites</div>
-      <div class="navbar-item-n4n" tabindex="5">Guía básica tributaria</div>
-      <div class="navbar-item-s6E" tabindex="6">Buzón de sugerencias</div>
-      <div class="buscador-x7g" alt="Buscador, ingrese lo que desea buscar" tabindex="7">
-        <div class="buscar-GPG">Buscar</div>
-        <img class="search-z4N" src="./assets/search.png" alt="Ícono de una lupa"/>
+      <p class="servicio-de-rentas-internas-uWW" tabindex="1">SERVICIO DE RENTAS INTERNAS</p>
+      <div class="component-1-FRx-bg">
       </div>
     </div>
-    <div class="contenido-4K8">
-      <div class="tarjeta-contenido-aYN">
-        <a href="enlace-para-sri-en-linea" tabindex="8">
-          <img class="laptop-outline-Hhg" src="./assets/laptop-outline.png" alt="Ícono de una computadora portátil"/>
-          <div class="sri-en-lnea-bTU">SRI en línea</div>
-        </a>
+    <div class="frame-1-fXC">
+      <div class="men-navegacin-Usx">
+        <div class="navbar-item-Akn" tabindex="2">Servicios</div>
+        <div class="navbar-item-Wy4">
+          <div class="informacin-sobre-impuestos-DsU" tabindex="3">Información sobre impuestos</div>
+        </div>
+        <div class="navbar-item-hne" tabindex="4">Requisitos para trámites</div>
+        <div class="navbar-item-2iS" tabindex="5">Guía básica tributaria</div>
+        <div class="navbar-item-j74" tabindex="6">Buzón de sugerencias</div>
+        <div class="buscador-S1U" tabindex="7">
+          <div class="buscar-MPL">Buscar</div>
+          <img class="search-UD4" src="./assets/search.png"/>
+        </div>
       </div>
-      
-      <div class="tarjeta-contenido-5dY">
-        <a href="trmites-y-servicios.html" tabindex="9">
-          <img class="icon-list-bbt" src="./assets/icon-list.png" alt="Ícono de una lista"/>
-          <div class="sri-en-lnea-XVY">Trámites y Servicios</div>
-        </a>
-      </div>
-    
-      <div class="tarjeta-contenido-pzS">
-        <a href="enlace-para-facturador" tabindex="10">
-          <img class="print-kNJ" src="./assets/print.png" alt="Ícono de una impresora"/>
-          <div class="sri-en-lnea-g14">Facturador</div>
-        </a>
-      </div>
-    
-      <div class="tarjeta-contenido-BiW">
-        <a href="calculadora-de-impuesto-a-la-renta.html" tabindex="11">
-          <img class="icon-calculator-7MG" src="./assets/icon-calculator.png" alt="Ícono de una calculadora"/>
-          <div class="sri-en-lnea-Rsk">Calculadora impuestos</div>
-        </a>
-      </div>
-    
-      <div class="tarjeta-contenido-YxN">
-        <a href="enlace-para-ayuda-tecnica" tabindex="12">
-          <img class="icon-person-rTG" src="./assets/icon-person.png" alt="Ícono de persona"/>
-          <div class="sri-en-lnea-nbp">Ayuda técnica</div>
-        </a>
+      <div class="contenido-gpv">
+        <div class="tarjeta-contenido-oPk" tabindex="8">
+          <img class="laptop-outline-Wox" src="./assets/laptop-outline-8aJ.png"/>
+          <div class="sri-en-lnea-dNn">SRI en línea</div>
+        </div>
+        <div class="tarjeta-contenido-KmQ" tabindex="9">
+          <img class="icon-list-ENa" src="./assets/icon-list.png"/>
+          <div class="sri-en-lnea-xZU">
+            <a href="trmites-y-servicios.html">Trámites y Servicios</a></div>
+        </div>
+        <div class="tarjeta-contenido-sAe" tabindex="10">
+          <img class="print-PPt" src="./assets/print.png"/>
+          <div class="sri-en-lnea-iwx">Facturador</div>
+        </div>
+        <div class="tarjeta-contenido-Dti" tabindex="11">
+          <img class="icon-calculator-LiS" src="./assets/icon-calculator.png"/>
+          <div class="sri-en-lnea-FqQ"><a href="calculadora-de-impuesto-a-la-renta.html">Calculadora impuestos</a></div>
+        </div>
+        <div class="tarjeta-contenido-AhU" tabindex="12">
+          <img class="icon-person-gA2" src="./assets/icon-person.png"/>
+          <div class="sri-en-lnea-bnn">Ayuda técnica</div>
+        </div>
       </div>
     </div>
-    
-  </div>
-  <div class="auto-group-5nas-1Dg">
-    <div class="bubble-83Q">
-      <div class="auto-group-qkpa-enS">
-        <div class="ellipse-7-Pk2">
+    <p class="videos-institucionales-UaJ" tabindex="13">Videos Institucionales</p>
+    <div class="auto-group-xnxy-Ear">
+      <div class="bubble-9Sv">
+        <div class="auto-group-fkr6-gBx">
+          <div class="ellipse-7-bZp">
+          </div>
+          <div class="ellipse-6-u4i">
+          </div>
+          <div class="ellipse-4-fCJ">
+          </div>
+          <img class="essential-icons-chevron-right-mWE" src="./assets/essential-icons-chevron-right-xpN.png"/>
         </div>
-        <div class="ellipse-6-68e">
+        <div class="auto-group-brev-6Hc">
+          <div class="ellipse-3-SsG">
+          </div>
+          <img class="ellipse-5-kd4" src="./assets/ellipse-5.png"/>
         </div>
-        <div class="ellipse-4-zzi">
-        </div>
-        <img class="essential-icons-chevron-right-Wy4" src="./assets/essential-icons-chevron-right.png" alt="Flecha que apunta arriba"/>
       </div>
-      <div class="auto-group-rcfg-2wQ">
-        <div class="ellipse-3-nQn">
-        </div>
-        <img class="ellipse-5-Vpz" src="./assets/ellipse-5.png" alt=""/>
-      </div>
-    </div>
-    <div class="slide-1-dRQ">
-      <img class="image-4-yEN" src="./assets/image-4.png" alt="Requisitos para abrir un RUC"/>
-      <img class="image-5-646" src="./assets/image-5.png" alt="Requisitos para abrir un RUC"/>
-      <div class="auto-group-ya4w-R6N">
-        <img class="image-3-waW" src="./assets/image-3.png" alt="Introduccion: ¿qué es el RUC?" tabindex="15"/>
-        <div class="colonia-del-sacramento-5gi">
-          <p class="colonia-del-sacramento-Qiz">Colonia del Sacramento</p>
-          <div class="colonia-del-sacramento-eFx">La Paloma</div>
-          <div class="colonia-del-sacramento-X4r">
-            <p class="colonia-del-sacramento-4aa">Punta del Este</p>
-            <div class="colonia-del-sacramento-mzn">
-              <p class="colonia-del-sacramento-hdY">Casa Pueblo</p>
-              <div class="colonia-del-sacramento-CqC">Atardecer</div>
+      <div class="slide-1-gmc">
+        <img class="essential-icons-chevron-left-Br6" src="./assets/essential-icons-chevron-left.png" tabindex="14"/>
+        <video controls width="600" height="300" tabindex="15">
+          <source src="./assets/video.mp4" type="video/mp4">
+          <track kind="subtitles" src="./assets/subtitles.vtt" srclang="es" label="Español">
+          Tu navegador no soporta el elemento de video.
+        </video>
+        <img class="image-4-q8i" src="./assets/image-4.png" tabindex="16"/>
+        <img class="image-5-YJ2" src="./assets/image-5.png" tabindex="17"/>
+        <div class="auto-group-y28e-4nA">
+          <video controls width="600" height="300" tabindex="18">
+            <source src="./assets/video.mp4" type="video/mp4">
+            <track kind="subtitles" src="./assets/subtitles.vtt" srclang="es" label="Español">
+            Tu navegador no soporta el elemento de video.
+          </video>
+          
+          <div class="colonia-del-sacramento-iri">
+            <p class="colonia-del-sacramento-2sQ">Colonia del Sacramento</p>
+            <div class="colonia-del-sacramento-Pzn">La Paloma</div>
+            <div class="colonia-del-sacramento-SiA">
+              <p class="colonia-del-sacramento-yi6">Punta del Este</p>
+              <div class="colonia-del-sacramento-s2n">
+                <p class="colonia-del-sacramento-zt6">Casa Pueblo</p>
+                <div class="colonia-del-sacramento-UoG">Atardecer</div>
+              </div>
             </div>
           </div>
         </div>
+        <img class="essential-icons-chevron-right-hAE" src="./assets/essential-icons-chevron-right.png" tabindex="19"/>
+      </div>      
+    </div>
+    <div class="pie-pagina-NQn">
+      <div class="auto-group-jzls-5a6">
+        <div class="auto-group-ptwc-amk">
+          <img class="image-1-UcE" src="./assets/image-1-8TG.png" tabindex="24"/>
+        </div>
+        <img class="social-icons-bgr" src="./assets/social-icons-ige.png" tabindex="20"/>
+        <img class="social-icons-8wg" src="./assets/social-icons-gX8.png" tabindex="21"/>
+        <img class="social-icons-seN" src="./assets/social-icons-rqC.png" tabindex="22"/>
+        <div class="auto-group-nbci-cM4" tabindex="23">
+          <img class="line-6-Xyp" src="REPLACE_IMAGE:135:362"/>
+          <p tabindex="25" class="plataforma-gubernamental-financiera-av-amazonas-entre-unin-nacional-de-periodistas-y-jos-villalengua-quito-ecuador-telfono-02-393-6300-U8N">
+          Plataforma Gubernamental Financiera
+          <br/>
+          Av. Amazonas entre Unión Nacional de Periodistas y José Villalengua. Quito - Ecuador
+          <br/>
+          Teléfono: 02 393 6300
+          </p>
+        </div>
       </div>
-      <img class="essential-icons-chevron-right-DEW" src="./assets/essential-icons-chevron-right-GmC.png" alt="flecha para navegar la derecha" tabindex="16"/>
-      <img class="essential-icons-chevron-left-ut2" src="./assets/essential-icons-chevron-left.png" alt="flecha para navegar a la izquierda" tabindex="14"/>
+      <div class="auto-group-rel6-gkE">
+        <div class="rectangle-2-2JJ">
+        </div>
+        <div class="rectangle-3-xxe">
+        </div>
+        <div class="rectangle-1-JWi">
+        </div>
+      </div>
     </div>
   </div>
-  <p class="videos-institucionales-pEJ" tabindex="13">Videos Institucionales</p>
-  <div class="pie-pagina-7UJ">
-    <div class="auto-group-hxt2-F4i">
-      <div class="auto-group-ur9c-aMt">
-        <img class="image-1-HXC" src="./assets/image-1-18S.png" alt="Escudo del ecuador y frase el nuevo Ecuador" tabindex="20"/>
-      </div>
-      <img class="social-icons-okS" src="./assets/social-icons.png" alt="Ícono de facebook" tabindex="17"/>
-      <img class="social-icons-Yxv" src="./assets/social-icons-f26.png" alt="Ícono de twitter" tabindex="18"/>
-      <img class="social-icons-VdG" src="./assets/social-icons-CNJ.png" alt="Ícono de youtube" tabindex="19"/>
-      <div class="auto-group-ro4r-S2i">
-        <img class="line-6-xFx" src="REPLACE_IMAGE:135:362" alt=""/>
-        <p class="plataforma-gubernamental-financiera-av-amazonas-entre-unin-nacional-de-periodistas-y-jos-villalengua-quito-ecuador-telfono-02-393-6300-W2a" tabindex="21">
-        Plataforma Gubernamental Financiera
-        <br/>
-        Av. Amazonas entre Unión Nacional de Periodistas y José Villalengua. Quito - Ecuador
-        <br/>
-        Teléfono: 02 393 6300
-        </p>
-      </div>
-    </div>
-    <div class="auto-group-kuaz-XTU">
-      <div class="rectangle-1-T6E">
-      </div>
-      <div class="rectangle-2-Q1U">
-      </div>
-      <div class="rectangle-3-x2z">
-      </div>
-    </div>
-  </div>
-  <div class="component-1-thL" tabindex="1" autofocus>
-    <div class="rectangle-13-EWJ">
-    </div>
-    <p class="servicio-de-rentas-internas-yTt">SERVICIO DE RENTAS INTERNAS</p>
-    <div class="component-1-thL-bg">
-    </div>
-  </div>
-</div>
 </body>
+</html>

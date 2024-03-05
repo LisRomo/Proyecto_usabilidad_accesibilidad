@@ -9,117 +9,177 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo%3A400%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700"/>
   <link rel="stylesheet" href="./styles/trmites-y-servicios.css"/>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var images = document.querySelectorAll('img');
+        images.forEach(function(image) {
+            if (!image.alt) {
+                image.alt = 'Descripción de la imagen';
+            }
+        });
+
+        var elementsWithText = document.querySelectorAll('div, p');
+        elementsWithText.forEach(function(element) {
+            if (!element.getAttribute('aria-label') && element.textContent.trim() !== '') {
+                element.setAttribute('aria-label', element.textContent.trim());
+            }
+        });
+        var elements = document.querySelectorAll('*');
+        var tabindex = 1;
+
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].setAttribute('tabindex', tabindex);
+            tabindex++;
+        }
+        
+    });
+    
+  </script>
+ <script>
+  document.addEventListener('DOMContentLoaded', function() {
+      // Servicio de Rentas Internas
+      document.querySelector('.sevicio').setAttribute('tabindex', '1');
+
+      // Portal / Trámites y Servicios
+      document.querySelector('.portal-dVY').setAttribute('tabindex', '2');
+      document.querySelector('.item--Ler').setAttribute('tabindex', '3');
+      document.querySelector('.trmites-y-servicios-Fmp').setAttribute('tabindex', '4');
+
+      // Trámites y Servicios
+      document.querySelector('.TM').setAttribute('tabindex', '5');
+      document.querySelector('.SL').setAttribute('tabindex', '6');
+
+      // Buscador
+      document.querySelector('.buscador').setAttribute('tabindex', '7');
+
+      // Tarjetas
+      var tarjetas = document.querySelectorAll('.tarjeta');
+      var tabindex = 8;
+      tarjetas.forEach(function(tarjeta) {
+          tarjeta.setAttribute('tabindex', tabindex.toString());
+          tabindex++;
+      });
+
+      // Iconos de redes sociales
+      var socialIcons = document.querySelectorAll('.social-icons-yF4, .social-icons-hwk, .social-icons-eMC');
+      socialIcons.forEach(function(icon) {
+          icon.setAttribute('tabindex', '-1');
+      });
+
+      // Footer
+      document.querySelector('.img').setAttribute('tabindex', '-1');
+      document.querySelector('.direcc').setAttribute('tabindex', '-1');
+    });
+  </script>
+
+
 </head>
 <body>
-<div class="trmites-y-servicios-T7L">
-  <div class="auto-group-4tp8-Lwp">
-    <div class="buscador-eBp">
-      <div class="buscar-aLN">Buscar</div>
-      <img class="search-VCS" src="./assets/search-ZJe.png"/>
+<div class="trmites-y-servicios-q1x">
+  <div class="auto-group-bgrj-irS">
+    <div class="buscador-DoC buscador">
+      <div class="buscar-ACe">Buscar</div>
+      <img class="search-f9Q" src="./assets/search-QAa.png"/>
     </div>
   </div>
-  <div class="navegacin-trmites-y-servicios-Zi6">
-    <p class="portal-ejY">   <a href="index.html">Portal</a></p>
-    <p class="item--NvS">/</p>
-    <p class="trmites-y-servicios-7NE">Trámites y Servicios</p>
+  <div class="navegacin-trmites-y-servicios-kAr">
+    <a class="portal-dVY" href="index.html">Portal</a>
+    <p class="item--Ler">/</p>
+    <p class="trmites-y-servicios-Fmp TM">Trámites y Servicios</p>
   </div>
-  <p class="trmites-y-servicios-q3L">Trámites y Servicios</p>
-  <p class="revise-aqu-informacin-de-los-trmites-y-servicios-que-el-servicio-de-rentas-internas-pone-a-su-disposicin-Xgr">Revise aquí información de los trámites y servicios que el Servicio de Rentas Internas pone a su disposición</p>
-  <div class="auto-group-n7ua-NxN">
-    <div class="auto-group-sbd8-Tiv">
-      <div class="claves-aYe">
-        <div class="claves-tZL">CLAVES</div>
-        <img class="claves-1-oRQ" src="./assets/claves-1.png"/>
-        <p class="informacin-sobre-procesos-de-claves-y-usuarios-adicionales-8Cn">Información sobre procesos de claves y usuarios adicionales</p>
-        <div class="boton-DV8">IR AL SITIO</div>
+  <p class="trmites-y-servicios-NLe">Trámites y Servicios</p>
+  <p class="SL revise-aqu-informacin-de-los-trmites-y-servicios-que-el-servicio-de-rentas-internas-pone-a-su-disposicin-5F4">Revise aquí información de los trámites y servicios que el Servicio de Rentas Internas pone a su disposición</p>
+  <div class="auto-group-nxwj-Xcr">
+    <div class="auto-group-apvp-23p">
+      <div class="claves-ZJe tarjeta">
+        <div class="claves-Tev">CLAVES</div>
+        <img class="claves-1-nBQ" src="./assets/claves-1.png"/>
+        <p class="informacin-sobre-procesos-de-claves-y-usuarios-adicionales-7Dg">Información sobre procesos de claves y usuarios adicionales</p>
+        <div class="boton-Pwt">IR AL SITIO</div>
       </div>
-      <div class="ruc-4ke">
-        <div class="ruc-ysc">RUC</div>
-        <img class="catastro-1-4na" src="./assets/catastro-1.png"/>
-        <p class="informacin-de-registro-nico-de-contribuyentes-oEN">Información de Registro Único de Contribuyentes</p>
-        <div class="boton-HQS">IR AL SITIO</div>
+      <div class="ruc-S9U tarjeta">
+        <div class="ruc-YTQ">RUC</div>
+        <img class="catastro-1-3ux" src="./assets/catastro-1.png"/>
+        <p class="informacin-de-registro-nico-de-contribuyentes-NhL">Información de Registro Único de Contribuyentes</p>
+        <div class="boton-HpJ">IR AL SITIO</div>
       </div>
-      <div class="facturacin-k38">
-        <div class="facturacin-TTL">FACTURACIÓN</div>
-        <img class="facturacion-1-AsY" src="./assets/facturacion-1.png"/>
-        <p class="informacin-sobre-procesos-de-facturacin-HSN">Información sobre procesos de facturación</p>
-        <div class="boton-ypz">IR AL SITIO</div>
+      <div class="facturacin-wtr tarjeta">
+        <div class="facturacin-FuY">FACTURACIÓN</div>
+        <img class="facturacion-1-NDU" src="./assets/facturacion-1.png"/>
+        <p class="informacin-sobre-procesos-de-facturacin-HrE">Información sobre procesos de facturación</p>
+        <div class="boton-Bwc">IR AL SITIO</div>
       </div>
-      <div class="entrega-y-recepcion-informacin-fiscal-F1p">
-        <div class="entrega-y-recepcin-de-informacin-fiscal-LZ4">ENTREGA Y RECEPCIÓN DE INFORMACIÓN FISCAL</div>
-        <img class="entrega-y-recepcion-fiscal-1-T7t" src="./assets/entrega-y-recepcion-fiscal-1.png"/>
-        <p class="informacin-sobre-declaraciones-anexos-y-otros-BZg">Información sobre declaraciones, anexos y otros</p>
-        <div class="boton-hH8">IR AL SITIO</div>
-      </div>
-    </div>
-    <div class="auto-group-qtyx-MsU">
-      <div class="pago-de-impuestos-guk">
-        <div class="pago-de-impuestos-zfY">PAGO DE IMPUESTOS</div>
-        <img class="pagos-1-7VG" src="./assets/pagos-1.png"/>
-        <p class="informacin-sobre-procesos-de-pago-de-impuestos-T3L">Información sobre procesos de pago de impuestos</p>
-        <div class="boton-Lcv">IR AL SITIO</div>
-      </div>
-      <div class="deudas-p2J">
-        <div class="deudas-XSW">DEUDAS</div>
-        <img class="deudas1-1-dkS" src="./assets/deudas1-1.png"/>
-        <p class="informacin-sobre-procesos-de-pago-de-deudas-AkN">Información sobre procesos de pago de deudas</p>
-        <div class="boton-sen">IR AL SITIO</div>
-      </div>
-      <div class="devoluciones-y-reintegro-L2a">
-        <div class="devoluciones-y-reintegro-2g6">DEVOLUCIONES Y REINTEGRO</div>
-        <div class="auto-group-buu4-kc6">
-          <img class="deudas-2-7Se" src="./assets/deudas-2.png"/>
-        </div>
-        <p class="informacin-sobre-procesos-de-devoluciones-y-acreditaciones-RTL">Información sobre procesos de devoluciones y acreditaciones</p>
-        <div class="boton-LKQ">IR AL SITIO</div>
-      </div>
-      <div class="trmites-y-notificaciones-QaA">
-        <div class="trmites-y-notificaciones-JfY">TRÁMITES Y NOTIFICACIONES</div>
-        <img class="tramites-y-notificaciones-1-cAS" src="./assets/tramites-y-notificaciones-1.png"/>
-        <p class="informacin-sobre-procesos-de-trmites-y-notificaciones-jkr">Información sobre procesos de trámites y notificaciones</p>
-        <div class="boton-Dvv">IR AL SITIO</div>
+      <div class="entrega-y-recepcion-informacin-fiscal-S6r tarjeta">
+        <div class="entrega-y-recepcin-de-informacin-fiscal-iaA">ENTREGA Y RECEPCIÓN DE INFORMACIÓN FISCAL</div>
+        <img class="entrega-y-recepcion-fiscal-1-RjU" src="./assets/entrega-y-recepcion-fiscal-1.png"/>
+        <p class="informacin-sobre-declaraciones-anexos-y-otros-Z4z">Información sobre declaraciones, anexos y otros</p>
+        <div class="boton-GEJ">IR AL SITIO</div>
       </div>
     </div>
-    <div class="auto-group-e6fy-pQv">
-      <div class="certificados-tributarios-7up">
-        <div class="certificados-tributarios-ZG2">CERTIFICADOS TRIBUTARIOS</div>
-        <img class="certificados-tributarios-1-eHU" src="./assets/certificados-tributarios-1.png"/>
-        <p class="informacin-sobre-procesos-de-certificados-tributarios-k5c">Información sobre procesos de certificados tributarios</p>
-        <div class="boton-2op">IR AL SITIO</div>
+    <div class="auto-group-wpzs-KiN">
+      <div class="pago-de-impuestos-Frv tarjeta">
+        <div class="pago-de-impuestos-xWS">PAGO DE IMPUESTOS</div>
+        <img class="pagos-1-66r" src="./assets/pagos-1.png"/>
+        <p class="informacin-sobre-procesos-de-pago-de-impuestos-R98">Información sobre procesos de pago de impuestos</p>
+        <div class="boton-vLn">IR AL SITIO</div>
       </div>
-      <div class="impuestos-vehiculares-6Yn">
-        <div class="impuestos-vehiculares-oxz">IMPUESTOS VEHICULARES</div>
-        <img class="impuestos-vehiculares-1-iq4" src="./assets/impuestos-vehiculares-1.png"/>
-        <p class="informacin-sobre-procesos-de-impuestos-vehiculares-rAa">Información sobre procesos de impuestos vehiculares</p>
-        <div class="boton-9Qa">IR AL SITIO</div>
+      <div class="deudas-PVG tarjeta">
+        <div class="deudas-uiW">DEUDAS</div>
+        <img class="deudas1-1-d8i" src="./assets/deudas1-1.png"/>
+        <p class="informacin-sobre-procesos-de-pago-de-deudas-A8e">Información sobre procesos de pago de deudas</p>
+        <div class="boton-gMt">IR AL SITIO</div>
       </div>
-      <div class="ice-BMG">
-        <div class="ice-gop">ICE</div>
-        <div class="auto-group-38ml-CnA">
-          <img class="ice-1-wUr" src="./assets/ice-1.png"/>
-        </div>
-        <p class="informacin-sobre-impuestos-a-los-consumos-especiales-FEe">Información sobre Impuestos a los consumos especiales</p>
-        <div class="boton-YUe">IR AL SITIO</div>
+      <div class="devoluciones-y-reintegro-wYi tarjeta">
+        <div class="devoluciones-y-reintegro-SEa">DEVOLUCIONES Y REINTEGRO</div>
+        <img class="deudas-2-kFG" src="./assets/deudas-2.png"/>
+        <p class="informacin-sobre-procesos-de-devoluciones-y-acreditaciones-6K8">Información sobre procesos de devoluciones y acreditaciones</p>
+        <div class="boton-ojL">IR AL SITIO</div>
       </div>
-      <div class="otras-peticiones-pSA">
-        <div class="otras-peticiones-jZ8">OTRAS PETICIONES</div>
-        <img class="otras-peticiones-1-Tk2" src="./assets/otras-peticiones-1.png"/>
-        <p class="informacin-sobre-procesos-de-otras-peticiones-zV4">Información sobre procesos de otras peticiones</p>
-        <div class="boton-JEr">IR AL SITIO</div>
+      <div class="trmites-y-notificaciones-GN2 tarjeta">
+        <div class="trmites-y-notificaciones-MeN">TRÁMITES Y NOTIFICACIONES</div>
+        <img class="tramites-y-notificaciones-1-GWS" src="./assets/tramites-y-notificaciones-1.png"/>
+        <p class="informacin-sobre-procesos-de-trmites-y-notificaciones-yfk">Información sobre procesos de trámites y notificaciones</p>
+        <div class="boton-tXp">IR AL SITIO</div>
+      </div>
+    </div>
+    <div class="auto-group-jjk2-x1t">
+      <div class="certificados-tributarios-686 tarjeta">
+        <div class="certificados-tributarios-BQS">CERTIFICADOS TRIBUTARIOS</div>
+        <img class="certificados-tributarios-1-Vvv" src="./assets/certificados-tributarios-1.png"/>
+        <p class="informacin-sobre-procesos-de-certificados-tributarios-Edc">Información sobre procesos de certificados tributarios</p>
+        <div class="boton-MCS">IR AL SITIO</div>
+      </div>
+      <div class="impuestos-vehiculares-Cir tarjeta">
+        <div class="impuestos-vehiculares-u7U">IMPUESTOS VEHICULARES</div>
+        <img class="impuestos-vehiculares-1-cna" src="./assets/impuestos-vehiculares-1.png"/>
+        <p class="informacin-sobre-procesos-de-impuestos-vehiculares-MVG">Información sobre procesos de impuestos vehiculares</p>
+        <div class="boton-rwp">IR AL SITIO</div>
+      </div>
+      <div class="ice-XYA tarjeta">
+        <div class="ice-qYr">ICE</div>
+        <img class="ice-1-Ar2" src="./assets/ice-1.png"/>
+        <p class="informacin-sobre-impuestos-a-los-consumos-especiales-JxE">Información sobre Impuestos a los consumos especiales</p>
+        <div class="boton-NBQ">IR AL SITIO</div>
+      </div>
+      <div class="otras-peticiones-mjL tarjeta">
+        <div class="otras-peticiones-5EE">OTRAS PETICIONES</div>
+        <img class="otras-peticiones-1-oAE" src="./assets/otras-peticiones-1.png"/>
+        <p class="informacin-sobre-procesos-de-otras-peticiones-Xc2">Información sobre procesos de otras peticiones</p>
+        <div class="boton-2Ht">IR AL SITIO</div>
       </div>
     </div>
   </div>
-  <div class="pie-pagina-Myp">
-    <div class="auto-group-vz9t-VKL">
-      <div class="auto-group-zugr-RTt">
-        <img class="image-1-8dC" src="./assets/image-1.png"/>
+  <div class="pie-pagina-5GA">
+    <div class="auto-group-txxy-Cra">
+      <div class="auto-group-sejx-918">
+        <img class="image-1-3MQ img" src="./assets/image-1.png"/>
       </div>
-      <img class="social-icons-f7L" src="./assets/social-icons-uhg.png"/>
-      <img class="social-icons-nxe" src="./assets/social-icons-FX4.png"/>
-      <img class="social-icons-jN6" src="./assets/social-icons-N1c.png"/>
-      <div class="auto-group-zees-5B4">
-        <img class="line-6-nrA" src="REPLACE_IMAGE:135:445"/>
-        <p class="plataforma-gubernamental-financiera-av-amazonas-entre-unin-nacional-de-periodistas-y-jos-villalengua-quito-ecuador-telfono-02-393-6300-Y4e">
+      <img class="social-icons-yF4" src="./assets/social-icons-mDg.png"/>
+      <img class="social-icons-hwk" src="./assets/social-icons-Dy8.png"/>
+      <img class="social-icons-eMC" src="./assets/social-icons-VyY.png"/>
+      <div class="auto-group-bnfg-niJ">
+        <img class="line-6-i6A" src="REPLACE_IMAGE:135:445"/>
+        <p class="direcc plataforma-gubernamental-financiera-av-amazonas-entre-unin-nacional-de-periodistas-y-jos-villalengua-quito-ecuador-telfono-02-393-6300-TZY">
         Plataforma Gubernamental Financiera
         <br/>
         Av. Amazonas entre Unión Nacional de Periodistas y José Villalengua. Quito - Ecuador
@@ -128,21 +188,22 @@
         </p>
       </div>
     </div>
-    <div class="auto-group-hjwn-aX8">
-      <div class="rectangle-1-7GA">
+    <div class="auto-group-a4yt-hTt">
+      <div class="rectangle-2-Eyc">
       </div>
-      <div class="rectangle-2-f2n">
+      <div class="rectangle-3-myY">
       </div>
-      <div class="rectangle-3-Qm4">
+      <div class="rectangle-1-7nW">
       </div>
     </div>
   </div>
-  <div class="component-2-MRQ">
-    <div class="rectangle-13-6Nz">
+  <div class="component-2-fZ8">
+    <div class="rectangle-13-ovE">
     </div>
-    <p class="servicio-de-rentas-internas-cs8">SERVICIO DE RENTAS INTERNAS</p>
-    <div class="component-2-MRQ-bg">
+    <p class="servicio-de-rentas-internas-vzr sevicio" autofocus>SERVICIO DE RENTAS INTERNAS</p>
+    <div class="component-2-fZ8-bg">
     </div>
   </div>
 </div>
 </body>
+</html>
